@@ -1,0 +1,30 @@
+	
+	PROCESO
+	-----------------------------------------------------
+	* Dos procesos son concurrentes (hay multiprocesamiento) cuando haya un solapamiento 
+	  de la ejecución de sus instrucciones 
+	* La 1ª instrucción de uno de ellos se ejecuta después de la 1ª instrucción del otro y antes
+	  de la última. 
+	* El soporte para multiprocesamiento nos lo
+	  da el sistema operativo.
+	  
+	  
+	HILO
+	-----------------------------------------------------------------------------
+	* En programación un hilo es un componente de un proceso. 
+	* Tienen su propia pila, sus propios valores de registros y valor del contador de programa.
+	* Un proceso tiene al menos un hilo, pero puede tener más. 
+	* Permiten que un proceso haga más de una tarea a la vez.
+	
+	
+	
+	MULTIPROCESO VS MULTIHILO
+	------------------------------------------------------------
+	Los procesos son entes pesados, situados en espacios de memoria diferentes 
+	* Dificultad de comunicación
+	* Lentitud en el cambio de contexto 
+	
+	Los hilos son entes ligeros, situados en el mismo espacio de memoria. 
+	* Comparten espacio de memoria
+	* Tienen su propia pila, variables y CP
+	* Cambios de contexto más rápidos. 
